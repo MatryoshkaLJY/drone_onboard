@@ -10,7 +10,6 @@ find_package(MAVSDK REQUIRED)
 
 include_directories(include)
 include_directories(KCF)
-include_directories(
 
 aux_source_directory(./src MAIN_SRCS)
 aux_source_directory(./KCF KCF_SRCS)
