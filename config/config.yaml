@@ -1,0 +1,52 @@
+%YAML:1.0
+#cautious: NO TABS!!!!!!!
+CAMERA_NODE:{
+    ENABLE: 1,
+    ID: 0,
+    WIDTH: 1280,
+    HEIGHT: 800,
+    CAMERA_INTRINSIC_XML: "../config/camera_intrinsic.xml"}
+SOCKET_SEND_NODE:{
+    ENABLE: 1,
+    HOST: "192.168.43.230",
+    PORT: 8080,
+    GRAY_IMG: 0,
+    IMG_MSG_RESIZE: 0.1,
+    IMG_MSG_QUALITY: 30}
+SOCKET_RECV_NODE:{
+    ENABLE: 1,
+    HOST: "192.168.43.230",
+    PORT: 8080}
+CONTROL_NODE:{
+    ENABLE: 1,
+    URL: "serial:///dev/ttyS0:115200",
+    TAKEOFF_ALTITUDE: 4.0}
+ALTITUDE_PID_PARAM:{
+    Kp_z: 0.6,
+    Ki_z: 0.001,
+    Kd_z: 0.3}
+VISION_PID_PARAM:{
+    Ky: 1,
+    Kz: 1.5,
+    Kp_y: 0.6,
+    Ki_y: 0.001,
+    Kd_y: 0.3,
+    Kp_x_vel: 0.12,
+    Ki_x_vel: 0.008}
+FLOW_PID_PARAM:{
+    Kp_x: 0.06,
+    Ki_x: 0.0,
+    Kd_x: 0.05,
+    Kp_y: 0.1,
+    Ki_y: 0.0,
+    Kd_y: 0.08}
+MISSION_PARAM:{
+    VEL_TARGET_1: 4.0,
+    TIME_START_SEARCH_TARGET_2: 2.5,
+    TIME_THROUGH_TARGET_1: 3.2,
+    VEL_TARGET_2_FAR: 3.0,
+    VEL_TARGET_2_NEAR: 5.0,
+    TIME_THROUGH_TARGET_2: 2,
+    VEL_TARGET_3_FAR: 3.0,
+    VEL_TARGET_3_NEAR: 6.0,
+    TIME_THROUGH_TARGET_3: 1.8}
