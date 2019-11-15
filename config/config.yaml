@@ -8,14 +8,14 @@ CAMERA_NODE:{
     CAMERA_INTRINSIC_XML: "../config/camera_intrinsic.xml"}
 SOCKET_SEND_NODE:{
     ENABLE: 1,
-    HOST: "192.168.1.100",
+    HOST: "192.168.1.101",
     PORT: 8080,
     GRAY_IMG: 0,
     IMG_MSG_RESIZE: 0.1,
     IMG_MSG_QUALITY: 30}
 SOCKET_RECV_NODE:{
     ENABLE: 1,
-    HOST: "192.168.1.100",
+    HOST: "192.168.1.101",
     PORT: 8080}
 CONTROL_NODE:{
     ENABLE: 1,
