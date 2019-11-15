@@ -21,7 +21,7 @@ void cameraLoop( FileNode camera_config )
     }
 
     Mat image;
-    int camera_status = 1;
+    int camera_status = 0;
     int64_t timestamp;
 
     //VideoCapture cap("../testset/demo4.avi");
