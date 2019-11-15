@@ -15,18 +15,18 @@
 #include "kcftracker.hpp"
 #include "utils.hpp"
 
-extern "C" {
-#include "apriltag.h"
-#include "tag36h11.h"
-#include "tag25h9.h"
-#include "tag16h5.h"
-#include "tagCircle21h7.h"
-#include "tagCircle49h12.h"
-#include "tagCustom48h12.h"
-#include "tagStandard41h12.h"
-#include "tagStandard52h13.h"
-#include "common/getopt.h"
-}
+// extern "C" {
+// #include "apriltag.h"
+// #include "tag36h11.h"
+// #include "tag25h9.h"
+// #include "tag16h5.h"
+// #include "tagCircle21h7.h"
+// #include "tagCircle49h12.h"
+// #include "tagCustom48h12.h"
+// #include "tagStandard41h12.h"
+// #include "tagStandard52h13.h"
+// #include "common/getopt.h"
+// }
 
 using namespace cv;
 using namespace std;
